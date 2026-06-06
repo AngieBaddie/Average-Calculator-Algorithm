@@ -1,0 +1,29 @@
+There are 2 pseudocodes here:
+
+1. Simple Language Pseudocode:
+START
+  Ask the user: "How many numbers do you want to average?"
+  Save their answer as N
+  Set sum to 0
+  Repeat N times:
+    Ask the user to enter a number
+    Add that number to sum
+  Divide sum by N to get the average
+  Show the average to the user
+STOP
+
+2. Advanced Pseudocode
+BEGIN AverageCalculator
+  DISPLAY "Enter how many numbers you want to average:"
+  INPUT N
+  SET sum = 0
+  SET i = 1
+  WHILE i <= N DO
+    DISPLAY "Enter number", i, ":"
+    INPUT number
+    SET sum = sum + number
+    SET i = i + 1
+  END WHILE
+  SET average = sum / N
+  DISPLAY "The average is:", average
+END AverageCalculator
